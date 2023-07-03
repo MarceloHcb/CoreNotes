@@ -14,7 +14,7 @@ sudo docker-compose up -d
 ```
 ### Após isso acesse http://localhost:3000/
 
-## OR
+## OU
 
 ## Usando local com container Mysql
 Com o terminal aberto na pasta do projeto, execute o seguinte comando para poder instalar as dependências:
@@ -91,7 +91,7 @@ npm run drop
 └── README.md
 
 ```
-<h2>Este projeto utiliza o Next.js como framework de desenvolvimento frontend, o Tailwind CSS como biblioteca para manipulação de estilos CSS e o Eslint como ferramenta para manter uma formatação consistente e padronizada em nosso código.</h2>
+<h2>Este projeto utiliza o Next.js como framework de desenvolvimento Frontend, o Tailwind CSS como biblioteca para manipulação de estilos CSS e o Eslint como ferramenta para manter uma formatação consistente e padronizada em nosso código.</h2>
 
 
 <div>  
