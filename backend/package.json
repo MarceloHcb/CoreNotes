@@ -18,7 +18,7 @@
     "test:coverage": "nyc --extension .ts --reporter=lcov --reporter=text mocha --require ts-node/register 'test/**/*.test.ts'",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "drop": "npx -y env $(cat .env) npx sequelize-cli db:seed:undo:all && env $(cat .env) npx sequelize-cli db:drop",
-    "db:reset": "npx -y tsc && npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
+    "devall": "concurrently \"npm install && npm run dev\" \"cd .. && cd frontend && npm install && npm run dev\""
   },
   "keywords": [],
   "author": "MarceloHcb",
