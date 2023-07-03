@@ -12,6 +12,9 @@ With the terminal open in the project, execute the following command to be able 
 ```
 sudo docker-compose up -d
 ```
+### after that access http://localhost:3000/
+
+## OR
 
 ## Using in local machine, just uploading the mysql container
 With the terminal open in the project, execute the following command to be able to install the dependencies:
@@ -21,6 +24,7 @@ npm run compose
 ```
 npm run devall
 ```
+### after that access http://localhost:3000/
 ## The command below resets the database
 ```
 npm run drop
