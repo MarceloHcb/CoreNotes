@@ -1,18 +1,18 @@
 <h1 align="center"> <img src="https://core-notes-3z2u.vercel.app/_next/image?url=%2Fimages%2Flogo.png&w=48&q=75&dpl=dpl_EfUYH5GSJNLppKKD9eMtXbJ7BoUP"/> Core Notes </h1> 
 
->  Web application that allows users to create and manage a To-do List
+>  Aplicativo da Web que permite aos usuários criar e gerenciar uma lista de tarefas
 
 ***
 Deploy link: https://core-notes-3z2u.vercel.app/
 
 # Getting started
 
-## Using docker
+## Usando Docker
 With the terminal open in the project, execute the following command to be able to install the dependencies:
 ```
 sudo docker-compose up -d
 ```
-### after that access http://localhost:3000/
+### Após isso acesse http://localhost:3000/
 
 ## OR
 
@@ -24,27 +24,38 @@ npm run compose
 ```
 npm run devall
 ```
-### after that access http://localhost:3000/
-## The command below resets the database
+### Após isso acesse http://localhost:3000/
+
+## Use o comando abaixo caso queira resetar o banco de dados
 ```
 npm run drop
 ```
 
 ## Back End:
+<h2> No Back end foram usados, NodeJs, Sequelize, e Eslit  para a indentação </h2>
+<p>Rotas criadas para API (get, post, update, delete)</p>
+
+
 <div>  
 <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>
 <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white"/>
 <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white"/>
+<img src="https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red"/>
 </div>
 
 ## Database
 <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
 
 ## Containers
+<h2>Tem a opção de usar por containers ou local</h2>
 <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
 
 ## Front end
+<h2>Para o Front-end foi utilizado o Framework Nextjs, Tailwind para manipulação do Css, e Eslint para indentação</h2>
+
+
 <div>  
 <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
