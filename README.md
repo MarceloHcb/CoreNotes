@@ -2,17 +2,28 @@
 
 >  Web application that allows users to create and manage a To-do List
 
-## Installing without using docker
-With the terminal open in the project, execute the following command to be able to install the dependencies:
-```
-docker-compose upd -d
-```
+***
+Deploy link: https://core-notes-3z2u.vercel.app/
 
 ## Install using docker
 With the terminal open in the project, execute the following command to be able to install the dependencies:
 ```
-docker-compose up -d
+sudo docker-compose up -d
 ```
+
+## If you want to run the project on the local machine, just uploading the mysql container
+With the terminal open in the project, execute the following command to be able to install the dependencies:
+```
+npm run compose
+```
+```
+npm run devall
+```
+
+
+
+
+
 
 
 <h2></h2>
