@@ -47,9 +47,7 @@ npm run drop
 │   └── package.json
 └── README.md
 ```
-<h2> No Back-end foram usadas as seguintes Tecnologias:  NodeJs, Sequelize, e Eslit  para a indentação </h2>
-<p>Rotas criadas para API (get, post, update, delete)</p>
-
+<h2> Este projeto utiliza o Node.js como plataforma de desenvolvimento backend, o Sequelize como ORM (Object-Relational Mapping) para interagir com o banco de dados e o Eslint como ferramenta para manter uma formatação consistente e padronizada em nosso código. </h2>
 
 <div>  
 <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
