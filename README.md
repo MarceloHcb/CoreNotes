@@ -19,6 +19,13 @@ npm run compose
 ```
 npm run devall
 ```
+## The command below resets the database
+```
+npm run drop
+```
+<h2> The Project </h2>
+<img src="exe2.gif"/>
+
 
 
 
