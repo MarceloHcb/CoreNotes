@@ -51,9 +51,9 @@ npm run drop
 </div>
 
 <h2> The Project </h2>
-<img src="exe2.gif"/>
+<img width=700 src="exe2.gif"/>
 <h2> Responsive</h2>
-<img src="responsive.gif"/>
+<img width=500 src="responsive.gif"/>
 
 
 
