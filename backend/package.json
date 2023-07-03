@@ -17,7 +17,7 @@
     "pretest:coverage": "npx tsc",
     "test:coverage": "nyc --extension .ts --reporter=lcov --reporter=text mocha --require ts-node/register 'test/**/*.test.ts'",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "drop": "npx -y env $(cat .env) npx sequelize-cli db:seed:undo:all && env $(cat .env) npx sequelize-cli db:drop",
+    "drop": "npx -y tsc && npx sequelize-cli db:drop",
     "devall": "concurrently \"npm install && npm run dev\" \"cd .. && cd frontend && npm install && npm run dev\""
   },
   "keywords": [],
@@ -65,6 +65,7 @@
   },
   "dependencies": {
     "bcryptjs": "2.4.3",
+    "concurrently": "^8.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "4.17.1",

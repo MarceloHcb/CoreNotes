@@ -105,7 +105,7 @@ function NoteComponent({ note }: { note: Note }) {
       {show && (
         <Card
           style={ { background: note.color, width: size.width, height: size.height } }
-          className="flex flex-col justify-between item-center mb-4 gap-5
+          className="flex flex-col justify-between item-center card mb-4 gap-5
           rounded-3xl md:h-96 w-96 text-lg fade-in"
           actions={ [
             <div

@@ -10,25 +10,25 @@ services:
       test: ["CMD", "lsof", "-t", "-i:3000"] 
       timeout: 10s
       retries: 5
+
   backend:
     container_name: app_backend
-    restart: always
     build: ./backend
+    restart: always
     ports:
       - 3001:3001
     working_dir: /app-backend
-    command: dev 
+    command: dev
     volumes: 
       - ./backend/src:/app-backend/src
     depends_on:
       - db
-        
     environment:
       - APP_PORT=3001           
       - DB_USER=root
       - DB_PASS=password
-      - DB_HOST=db
-      - DB_PORT=3306        
+      - DB_HOST=todo_db
+      - DB_PORT=3306  
   db:
     container_name: todo_db
     image: mysql:latest
@@ -38,7 +38,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: todo_db
-      HOST: localhost
-      PORT: 3001
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
     ports:
       - 3306:3306

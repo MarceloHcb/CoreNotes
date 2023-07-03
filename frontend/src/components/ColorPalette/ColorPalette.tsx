@@ -35,7 +35,7 @@ const ColorPalett: React.FC<ColorPalettProps> = ({ handleColorChange }) => {
     >
       <BgColorsOutlined key="ellipsis" />
       {isOpen && (
-        <div className="absolute -left-5  top-8 md:top-9 p-2 bg- w-max 
+        <div className="absolute -left-8  top-8 md:top-9 p-2 bg- w-max 
     bg-white border border-gray-300 rounded-lg shadow" >
           <CircleContainer />
         </div>

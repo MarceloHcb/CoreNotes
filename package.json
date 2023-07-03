@@ -1,0 +1,13 @@
+{
+  "name": "desafio-corelab",
+  "version": "1.0.0",
+  "description": "all",
+  "main": "index.js",
+  "scripts": {
+    "devall": "cd backend && npm run devall",
+    "drop": "cd backend && npm run drop",
+    "compose": "cd backend && sudo docker-compose up -d"
+  },
+  "author": "MarceloHcb",
+  "license": "ISC"  
+}

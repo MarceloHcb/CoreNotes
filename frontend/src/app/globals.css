@@ -26,7 +26,13 @@ body {
   border: none !important;  
 }
 .ant-card-bordered {
-  border: none !important; 
+  border: none !important;  
+}
+@media (max-width: 768px) {
+  .card {
+    width: 300px !important;
+    height: 380px !important;
+  }
 }
 
 .fade-in {

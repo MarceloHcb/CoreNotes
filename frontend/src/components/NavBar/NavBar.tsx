@@ -48,7 +48,7 @@ function Navbar() {
 
   return (
     <nav
-      className={ `w-full p-6 md:p-0 bg-opacity-80 z-50 
+      className={ `w-full p-2 md:p-0 bg-opacity-80 z-50 
   fixed top-0 ${!isNavbarOpen ? 'bg-white'
         : 'bg-transparent'} shadow-5xl` }
     >
@@ -57,18 +57,18 @@ function Navbar() {
           className={ `flex items-center  flex-col  justify-between h-28 md:h-16 w-full
       ${isNavbarOpen ? 'flex-row-reverse ' : 'flex md:flex-row'}` }
         >
-          <Logo />
           <div
-            className={ `flex-1 flex justify-start ${isNavbarOpen ? 'hidden'
-              : 'block'}` }
+            className={ `flex-1 flex items-center justify-start ${isNavbarOpen ? 'hidden'
+            : 'block'}` }
           >
+            <Logo />
             <SearchBar handleSearch={ handleSearch } />
           </div>
           <ul
             className="flex items-center absolute top-4 self-end md:self-center
       gap-3 md:gap-6 right-3 md:right-20"
           >
-            <button onClick={ handleSize }>
+            <button onClick={ handleSize } className='hidden md:block'>
               {size.width === '160px' ? (
                 <li className="text-2xl">
                   <ZoomInOutlined />
@@ -79,7 +79,7 @@ function Navbar() {
                 </li>
               )}
             </button>
-            <FormatPainterOutlined className="text-2xl" onClick={ handleBackGround } />
+            <FormatPainterOutlined className="text-2xl hidden md:block" onClick={ handleBackGround } />
             <button onClick={ toggleNavbar }>
               {isNavbarOpen ? (
                 <DownCircleOutlined className="text-2xl h-6 w-6 self-end" />
