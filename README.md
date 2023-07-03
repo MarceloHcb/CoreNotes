@@ -23,6 +23,12 @@ sudo docker-compose up -d
 ## Usando local com container Mysql
 Com o terminal aberto na pasta do projeto, execute o seguinte comando para poder instalar as dependências:
 ```
+cd backend
+```
+```
+npm install
+```
+```
 npm run compose
 ```
 ```
