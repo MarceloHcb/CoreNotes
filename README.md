@@ -66,7 +66,7 @@ npm run drop
 <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
 
 ## Front end
-<h2>Para o Front-end foi utilizado o Framework Nextjs, Tailwind para manipulação do Css, e Eslint para indentação</h2>
+<h2>Este projeto utiliza o Next.js como framework de desenvolvimento frontend, o Tailwind CSS como biblioteca para manipulação de estilos CSS e o Eslint como ferramenta para manter uma formatação consistente e padronizada em nosso código.</h2>
 
 
 <div>  
