@@ -8,7 +8,7 @@ Deploy link: https://core-notes-3z2u.vercel.app/
 # Getting started
 
 ## Usando Docker
-With the terminal open in the project, execute the following command to be able to install the dependencies:
+Com o terminal aberto na pasta do projeto, execute o seguinte comando para poder instalar as dependências:
 ```
 sudo docker-compose up -d
 ```
@@ -16,8 +16,8 @@ sudo docker-compose up -d
 
 ## OR
 
-## Using in local machine, just uploading the mysql container
-With the terminal open in the project, execute the following command to be able to install the dependencies:
+## Usando local com container Mysql
+Com o terminal aberto na pasta do projeto, execute o seguinte comando para poder instalar as dependências:
 ```
 npm run compose
 ```
@@ -26,13 +26,33 @@ npm run devall
 ```
 ### Após isso acesse http://localhost:3000/
 
-## Use o comando abaixo caso queira resetar o banco de dados
+## Use o comando abaixo para resetar o banco de dados
 ```
 npm run drop
 ```
 
+```tree
+.
+├── back-end/
+│   ├── src/
+│   │   ├── controllers
+│   │   ├── routes
+│   │   ├── service
+│   │   ├── app.js
+│   │   └── server.js
+│   ├── .dockerignore
+│   ├── Dockerfile
+│   ├── package-lock.json
+│   └── package.json
+├── front-end
+    ├── src/
+├── docker-compose.yml
+└── README.md
+```
+
+
 ## Back End:
-<h2> No Back end foram usados, NodeJs, Sequelize, e Eslit  para a indentação </h2>
+<h2> No Back-end foram usadas as seguintes técnologias:  NodeJs, Sequelize, e Eslit  para a indentação </h2>
 <p>Rotas criadas para API (get, post, update, delete)</p>
 
 
@@ -49,7 +69,7 @@ npm run drop
 <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
 
 ## Containers
-<h2>Tem a opção de usar por containers ou local</h2>
+<h2>Opção de containers</h2>
 <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
 
 ## Front end
