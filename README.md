@@ -107,6 +107,12 @@ npm run drop
 <img width=700 src="exe2.gif"/>
 <h2> Responsivo</h2>
 <img width=500 src="responsive.gif"/>
+<br/<br/>
+<div align="center"> 
+  <img src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg"/>
+  <img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"/>
+  <img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg"/>
+</div>
 
 
 
