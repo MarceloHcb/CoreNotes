@@ -31,7 +31,7 @@ cd backend
 npm install
 ```
 ```
-npm run compose
+sudo docker-compose up -d
 ```
 ```
 npm run devall
