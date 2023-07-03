@@ -49,13 +49,11 @@ npm run drop
 
 <h2> The Project </h2>
 <img src="exe2.gif"/>
+<h2> Responsive</h2>
+<img src="responsive.gif"/>
 
 
 
 
 
 
-
-
-
-<h2></h2>
