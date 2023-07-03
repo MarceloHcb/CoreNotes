@@ -31,6 +31,7 @@ npm run devall
 npm run drop
 ```
 
+## Back End:
 ```tree
 .
 ├── back-end/
@@ -44,15 +45,9 @@ npm run drop
 │   ├── Dockerfile
 │   ├── package-lock.json
 │   └── package.json
-├── front-end
-    ├── src/
-├── docker-compose.yml
 └── README.md
 ```
-
-
-## Back End:
-<h2> No Back-end foram usadas as seguintes técnologias:  NodeJs, Sequelize, e Eslit  para a indentação </h2>
+<h2> No Back-end foram usadas as seguintes Tecnologias:  NodeJs, Sequelize, e Eslit  para a indentação </h2>
 <p>Rotas criadas para API (get, post, update, delete)</p>
 
 
