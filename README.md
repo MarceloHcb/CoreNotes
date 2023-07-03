@@ -37,8 +37,10 @@ npm run drop
 ├── back-end/
 │   ├── src/
 │   │   ├── controllers
+│   │   ├──database
+│   │   ├──middlewares
 │   │   ├── routes
-│   │   ├── service
+│   │   ├── services
 │   │   ├── app.js
 │   │   └── server.js
 │   ├── .dockerignore
@@ -78,9 +80,9 @@ npm run drop
 <img src="https://img.shields.io/badge/-AntDesign-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white" />
 </div>
 
-<h2> The Project </h2>
+<h2> Demonstração </h2>
 <img width=700 src="exe2.gif"/>
-<h2> Responsive</h2>
+<h2> Responsivo</h2>
 <img width=500 src="responsive.gif"/>
 
 
