@@ -68,6 +68,29 @@ npm run drop
 <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
 
 ## Front end
+```tree
+
+├── front-end/
+│   ├── src/
+│   │  ├── Dockerfile
+│   │  ├── next.config.js
+│   │  ├── next-env.d.ts
+│   │  ├── node_modules
+│   │  ├── package.json
+│   │  ├── package-lock.json
+│   │  │── postcss.config.js
+│   │  ├── public
+│   │  ├── README.md
+│   │  ├── src
+│   │  │── tailwind.config.js
+│   │  │─ tsconfig.json 
+│   ├──
+│   ├── Dockerfile
+│   ├── package-lock.json
+│   └── package.json
+└── README.md
+
+```
 <h2>Este projeto utiliza o Next.js como framework de desenvolvimento frontend, o Tailwind CSS como biblioteca para manipulação de estilos CSS e o Eslint como ferramenta para manter uma formatação consistente e padronizada em nosso código.</h2>
 
 
