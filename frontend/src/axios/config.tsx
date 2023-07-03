@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { Note } from '../types/Note';
-
 const baseURL = 'https://todo-backend-production-035f.up.railway.app/';
 // const baseURL = 'http://localhost:3001/';
 
