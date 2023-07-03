@@ -5,13 +5,13 @@
 ***
 Deploy link: https://core-notes-3z2u.vercel.app/
 
-## Install using docker
+## Using docker
 With the terminal open in the project, execute the following command to be able to install the dependencies:
 ```
 sudo docker-compose up -d
 ```
 
-## If you want to run the project on the local machine, just uploading the mysql container
+## Using in local machine, just uploading the mysql container
 With the terminal open in the project, execute the following command to be able to install the dependencies:
 ```
 npm run compose
