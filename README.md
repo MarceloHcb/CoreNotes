@@ -10,7 +10,9 @@ Clonando o projeto:
 ```
 git clone git@github.com:MarceloHcb/CoreNotes.git
 ```
-
+```
+cd CoreNotes
+```
 ## Usando Docker
 Com o terminal aberto na pasta do projeto, execute o seguinte comando para poder instalar as dependências:
 ```
