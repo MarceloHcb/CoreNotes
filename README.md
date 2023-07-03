@@ -23,7 +23,7 @@ sudo docker-compose up -d
 ## OU
 
 ## Usando local com container Mysql
-## OBS.: Para que o servidor funcione localmente é preciso modificar a seguinte linha no /backend/.env -> MYSQL_HOST=localhost
+## OBS.: Para que o servidor funcione localmente é preciso modificar a seguinte linha /backend/.env -> MYSQL_HOST=localhost
 Com o terminal aberto na pasta do projeto, execute o seguinte comando para poder instalar as dependências:
 ```
 cd backend
