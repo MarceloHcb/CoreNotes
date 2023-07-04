@@ -34,7 +34,8 @@ function OtherNotes() {
         </div>
       </div>
       {notesOpen && (
-        <div className="flex flex-wrap gap-8 items-center justify-center w-full ">
+        <div className="flex flex-wrap gap-8 items-center flex-col-reverse
+        md:flex-row-reverse justify-center w-full">
 
           {loading ? (
             <Loading />
