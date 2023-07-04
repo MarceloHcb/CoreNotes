@@ -3,7 +3,7 @@
 >  Aplicativo da Web que permite aos usuários criar e gerenciar uma lista de tarefas
 
 ***
-Deploy link: https://core-notes-3z2u.vercel.app/
+Deploy link: https://todo-fullstack-henna.vercel.app/
 
 # Getting started
 Clonando o projeto: 
