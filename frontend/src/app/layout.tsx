@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'CoreNotes',
+  title: 'McloNotes',
   description: 'O céu é o limite',
 };
 
